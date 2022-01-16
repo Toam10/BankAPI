@@ -17,9 +17,6 @@ const App = () => {
     setData(getAllUsers());
   }, []);
 
-  
- 
-
   // const addUser = async () => {
   //   await axios({
   //     method: "post",
