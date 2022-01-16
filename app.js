@@ -13,3 +13,5 @@ app.use("/api", apiRouter);
 app.listen(process.env.PORT, () => {
   console.log("Server is up on port");
 });
+
+// good code keep going
