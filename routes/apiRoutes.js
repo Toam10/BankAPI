@@ -15,6 +15,9 @@ const {
 
 const apiRouter = express.Router();
 apiRouter.get("/", (req, res) => res.send("ok"));
+// please move all the /users in to this Router (userRouter)
+//apiRouter.use("/users", userRouter);
+
 apiRouter.get("/users", getAllUsers);
 
 apiRouter.get("/user", getUser);
@@ -36,3 +39,5 @@ apiRouter.post("/users/sortDebtors", sortDebtors);
 
 // export default apiRouter;
 module.exports = apiRouter;
+
+// really really nice code I love the way you writing
